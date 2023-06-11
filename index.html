@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>My Resume</title>
+	<link rel="icon" type="image/png" href="favicon.ico">
+    <script type="text/javascript" src="library.js"></script>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript">
+    	function myfunction(){
+    		document.getElementById('demo').innerHTML = "Email: shraddhadurge773@gmail.com <br> Phone: 7620180647";
+    	}
+
+    	$(document).ready(function(){
+    		$('.project').hover(function() {
+            $(this).css('background-color', 'lightgray');
+            }, function() {
+            $(this).css('background-color', 'transparent');
+            });
+    	});
+    </script>
+
+</head>
+<body>
+	<header class="bg-primary text-white text-center py-5">
+	<img src="image.jpg" alt="Shraddha" class="profile-image">
+    <h1>Shraddha Durge</h1>
+    <p>Frontend Web Developer</p>
+    </header>
+
+<div class="container mt-5">
+    <section id="about">
+      <h2>About Me</h2>
+      <p>My journey started in nursing, where I developed strong problem-solving and communication skills while providing compassionate care to patients with a passion for web development's creative and technical aspects. Skilled in HTML, CSS, JavaScript, Bootstrap, and jQuery, I bring a unique combination of healthcare knowledge and front-end coding expertise allowing me to create interactive and dynamic elements, adding functionality and interactivity to websites.</p>
+    </section>
+
+    <section id="internship">
+  <h2>Internship Experience</h2>
+
+  <div class="internship">
+    <h3>Intechzia</h3>
+    <p>Position: Intern</p>
+    <p>Duration: 6 months</p>
+    <p>Description: Worked as a frontend web developer intern at Intechzia,Developed dynamic web pages using HTML, CSS, and JavaScript.Worked with frontend frameworks and library like Bootstrap and jQuery.</p>
+  </div>
+   </section>  
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul>
+       <li>GNM Nursing, Florence Nightingale College of Nursing, Wardha (Sep2019-Nov2022)</li>
+       <li>Higher Secondary Certificate (HSC), G.B.M.M Jr College, Hinganghat (Jul2017-Feb2019)</li>
+       <li>Secondary School Certificate (SSC), S.S.M Vidyalaya, Hinganghat (Jun2016-Mar2017)</li>
+      </ul>
+    </section>
+
+    <section id="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>
+      <strong>HTML:</strong>
+      <ul>
+        <li>Writing clean and semantic HTML code</li>
+        <li>Proficiency in using HTML5 features</li>
+        <li>Understanding the structure of web pages</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>CSS:</strong>
+      <ul>
+        <li>Skilled in CSS and CSS3 properties and selectors</li>
+        <li>Creating responsive layouts</li>
+        <li>Applying styles and creating layouts</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>JavaScript:</strong>
+      <ul>
+        <li>Creating interactive web elements</li>
+        <li>Developing interactive features and functionality</li>
+        <li>Handling form validation and user input</li>
+        <li>Familiarity with JavaScript librarie jQuery</li>
+
+      </ul>
+    </li>
+    <br>
+     <li>
+      <strong>jQuery:</strong>
+      <ul>
+        <li>Implementing event handling</li>
+        <li>Creating animations and effects</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>Bootstrap:</strong>
+      <ul>
+        <li>Implementing grid layouts for consistent design</li>
+        <li>Customizing and styling Bootstrap components</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+      <strong>Python:</strong>
+      <ul>
+        <li>Writing clean and readable Python code</li>
+        <li>Creating interactive and user-friendly graphical interfaces</li>
+        <li>Utilizing GUI frameworks like Tkinter, PyQt, or wxPython</li>
+        <li>Designing and implementing windows, buttons, menus, and forms</li>
+        <li>Handling user input and events</li>
+        <li>Working with databases and SQL</li>
+      </ul>
+    </li>
+    <br>
+    <li>
+    <strong>Version Control:</strong>
+  <ul>
+    <li>Proficient in using Git for version control</li>
+    <li>Creating and managing Git repositories</li>
+    <li>Cloning and initializing repositories</li>
+    <li>Committing changes and creating branches</li>
+  </ul>
+   </li>
+  </ul>
+    </section>
+
+    <section id="projects">
+  <h2>Projects</h2>
+
+  <div class="project">
+    <h3>Student Portal Website</h3>
+    <p>This project is a full-stack web development project that aims to create a student portal website. Students can update their contact information, manage their profile, and access confidential documents or records.</p>
+    <p>Technologies/Languages used: HTML, CSS, JavaScript,jQuery and Bootstrap</p>
+    <p>Duration: 1 Month</p>
+    <a href="https://github.com/shraddhadurge773/Student_portal_website">View Project</a>
+  </div>
+
+  <div class="project">
+    <h3>Creative Design Website</h3>
+    <p>Developed a visually appealing and interactive website using HTML, CSS, and JavaScript. Implemented custom animations and engaging user interfaces to create an immersive user experience. The website showcases a portfolio of innovative designs and demonstrates my skills in front-end web development.</p>
+
+    <p>Technologies/Languages used: HTML, CSS and JavaScript </p>
+    <p>Duration: 1 Month</p>
+    <a href="https://github.com/shraddhadurge773/Creative-Design-project/tree/main">View Project</a>
+  </div>
+</section>
+
+    <section id="contact">
+      <h2>Contact Information</h2>
+      
+      <p id="demo"></p>
+      <button type="button" onclick="myfunction()" btn btn-primary>Contact</button>
+    </section>
+</div>
+
+</body>
+</html>
+
